@@ -1,0 +1,15 @@
+svg rect {
+    stroke-width: 1;
+    stroke: gray;
+}
+svg rect:hover {
+    opacity: 0.5;
+}
+
+rect.ponto-branco {
+    fill: white;
+}
+
+rect.ponto-vermelho {
+    fill: red;
+}
