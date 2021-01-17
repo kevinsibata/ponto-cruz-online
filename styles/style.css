@@ -1,15 +1,28 @@
-svg rect {
-    stroke-width: 1;
-    stroke: gray;
+#grafico {
+    border-collapse: collapse;
 }
-svg rect:hover {
+
+#grafico td {
+    width: 50px;
+    height: 50px;
+}
+
+#grafico td.ponto {
+    border: 1px solid darkgray;
+}
+
+#grafico td:hover {
     opacity: 0.5;
 }
 
-rect.ponto-branco {
-    fill: white;
+#grafico td.numeracao {
+    text-align: center;
 }
 
-rect.ponto-vermelho {
-    fill: red;
+#grafico td.branco {
+    background-color: white;
+}
+
+#grafico td.vermelho {
+    background-color: red;
 }
