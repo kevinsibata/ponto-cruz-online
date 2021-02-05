@@ -1,0 +1,40 @@
+.secao-grafico {
+    overflow: auto;
+}
+
+.secao-grafico h2 {
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+table.grafico {
+    width: 741px;
+    border-collapse: collapse;
+}
+
+table.grafico td {
+    width: 50px;
+    height: 50px;
+}
+
+.ponto {
+    border: 1px solid darkgray;
+}
+
+.ponto:hover {
+    opacity: 0.5;
+}
+
+.numeracao {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.vazio {
+    background-color: white;
+}
+
+.cor-1 {
+    background-color: red;
+}

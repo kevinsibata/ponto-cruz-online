@@ -1,0 +1,13 @@
+nav {
+    background-color: aliceblue;
+}
+
+.menu {
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
